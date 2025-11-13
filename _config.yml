@@ -3,6 +3,7 @@ description: My very nice blog
 author: "H S"
 
 base_url: ""
+url: "https://lunarhunar.github.io"
 
 # Minima social links
 github_username: lunarhunar
@@ -16,7 +17,7 @@ header_pages:
   - _pages/about.md
 
 #Static pages live here e.g. about.md
-include: ['_pages']
+include: ['_pages','_posts']]
 
 markdown: kramdown
 
