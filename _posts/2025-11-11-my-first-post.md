@@ -1,6 +1,6 @@
 ---
 title: "My first post"
-date: 2025-11-12
+date: 2025-11-11
 layout: post
 ---
 
