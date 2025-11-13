@@ -1,5 +1,5 @@
-title: My blog
-description: My very nice blog
+title: My Resume and Projects
+description: My Resume and Projects
 author: "H S"
 
 base_url: ""
@@ -8,8 +8,6 @@ url: "https://lunarhunar.github.io"
 # Minima social links
 github_username: lunarhunar
 linkedin_username: lunarhunar
-
-category-list: [posts, pages, images, static]
 
 # Minima: custom header links
 header_pages:
