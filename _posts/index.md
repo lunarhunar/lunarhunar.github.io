@@ -2,12 +2,12 @@
 layout: home
 ---
 
-<h2>All Pages</h2>
+<h2>Posts</h2>
 <ul>
-  {% for page in site.pages %}
-    {% if page.title and page.layout != "home" %}
-      <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
-    {% endif %}
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+    </li>
   {% endfor %}
 </ul>
-
