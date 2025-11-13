@@ -2,9 +2,9 @@ title: My blog
 description: My very nice blog
 author: "H S"
 
-theme: minima
+theme: minimal
 
-base_url: "/site"
+base_url: ""
 
 # Minima social links
 github_username: lunarhunar
