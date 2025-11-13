@@ -14,10 +14,9 @@ category-list: [posts, pages, images, static]
 header_pages:
   - _pages/frontpage.md
   - _pages/about.md
-  - _pages/archive.md
 
 #Static pages live here e.g. about.md
-include: ['_pages','_posts']
+include: ['_pages']
 
 markdown: kramdown
 
