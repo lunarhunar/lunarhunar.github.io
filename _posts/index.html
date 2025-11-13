@@ -1,13 +1,21 @@
 ---
-layout: home
+layout: default
+title: posts
 ---
+<html>
+<head>
+    <title>{{ page.title }}</title>
+</head>
+<body>
+    <h2>Posts</h2>
+      <ul>
+        {% for post in site.posts %}
+          <li>
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+          </li>
+        {% endfor %}
+      </ul>
+</body>
+</html>
 
-<h2>Posts</h2>
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-    </li>
-  {% endfor %}
-</ul>
