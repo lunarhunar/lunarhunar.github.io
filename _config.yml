@@ -17,7 +17,7 @@ header_pages:
   - _pages/about.md
 
 #Static pages live here e.g. about.md
-include: ['_pages','_posts']]
+include: ['_pages','_posts']
 
 markdown: kramdown
 
