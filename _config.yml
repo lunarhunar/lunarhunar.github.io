@@ -23,7 +23,14 @@ header_pages:
 
 include:
     - _pages
-    - _posts
+
+#Static pages live here e.g. about.md
+include: ['_pages']
+
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
 
 exclude: 
     - .gitignore
